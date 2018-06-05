@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_fc09f186daec49b795099a5f86caeeb6 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_fc09f186daec49b795099a5f86caeeb6" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_fc09f186daec49b795099a5f86caeeb6 = L.map(
+                                  'map_fc09f186daec49b795099a5f86caeeb6',
+                                  {center: [40,0],
+                                  zoom: 2,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_488e5d11f1ae4dc6abdf6fe41fde3e61 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_fc09f186daec49b795099a5f86caeeb6);
+        
+    
+
+            var marker_c20899135dff468aa752696f20ba4fdb = L.marker(
+                [53.746292,87.058818],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fc09f186daec49b795099a5f86caeeb6);
+            
+    
+
+                var custom_icon_855119f562404b22a34794abdb7fb555 = L.icon({
+                    iconUrl: 'https://ihwc.ru/sites/default/files/metallurg_novokuzneck-min.png',
+                    iconSize: [40,40],
+                    iconAnchor: [20,25],
+
+                    
+                    
+                    
+
+                    popupAnchor: [-20,-20],
+                    });
+                marker_c20899135dff468aa752696f20ba4fdb.setIcon(custom_icon_855119f562404b22a34794abdb7fb555);
+            
+    
+            var popup_8d21ebb91c5840c3a8fe000045b36a14 = L.popup({maxWidth: '600'});
+
+            
+                var i_frame_1e2279272fff4579bf6825e8a0a135f6 = $('<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKPGlmcmFtZSB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxNjYiIHNjcm9sbGluZz0ibm8iIGZyYW1lYm9yZGVyPSJubyIgYWxsb3c9ImF1dG9wbGF5IiBzcmM9Imh0dHBzOi8vdy5zb3VuZGNsb3VkLmNvbS9wbGF5ZXIvP3VybD1odHRwcyUzQS8vYXBpLnNvdW5kY2xvdWQuY29tL3RyYWNrcy80NTQwMDEwNjcmY29sb3I9JTIzZmY1NTAwJmF1dG9fcGxheT1mYWxzZSZoaWRlX3JlbGF0ZWQ9ZmFsc2Umc2hvd19jb21tZW50cz10cnVlJnNob3dfdXNlcj10cnVlJnNob3dfcmVwb3N0cz1mYWxzZSZzaG93X3RlYXNlcj10cnVlIj48L2lmcmFtZT4=" width="500" style="border:none !important;" height="190"></iframe>')[0];
+                popup_8d21ebb91c5840c3a8fe000045b36a14.setContent(i_frame_1e2279272fff4579bf6825e8a0a135f6);
+            
+
+            marker_c20899135dff468aa752696f20ba4fdb.bindPopup(popup_8d21ebb91c5840c3a8fe000045b36a14);
+
+            
+        
+    
+
+            var marker_767a02b77446435cb91039334b439de9 = L.marker(
+                [55.703336,37.530343],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fc09f186daec49b795099a5f86caeeb6);
+            
+    
+
+                var custom_icon_04db37c8f79b4da480b710e95756b953 = L.icon({
+                    iconUrl: 'https://armacad.info/images/2015/04/msu-WtVdPXzVK49ks6NPAVkpUbbDZ3OzCb1_.gif',
+                    iconSize: [40,40],
+                    iconAnchor: [20,25],
+
+                    
+                    
+                    
+
+                    popupAnchor: [-20,-20],
+                    });
+                marker_767a02b77446435cb91039334b439de9.setIcon(custom_icon_04db37c8f79b4da480b710e95756b953);
+            
+    
+            var popup_c247539071e743faa3a640ed57c93401 = L.popup({maxWidth: '600'});
+
+            
+                var i_frame_72b8728420d94e029b2be0bdecef40c4 = $('<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKPGlmcmFtZSB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxNjYiIHNjcm9sbGluZz0ibm8iIGZyYW1lYm9yZGVyPSJubyIgYWxsb3c9ImF1dG9wbGF5IiBzcmM9Imh0dHBzOi8vdy5zb3VuZGNsb3VkLmNvbS9wbGF5ZXIvP3VybD1odHRwcyUzQS8vYXBpLnNvdW5kY2xvdWQuY29tL3RyYWNrcy80NTQwMDEwNTUmY29sb3I9JTIzZmY1NTAwJmF1dG9fcGxheT1mYWxzZSZoaWRlX3JlbGF0ZWQ9ZmFsc2Umc2hvd19jb21tZW50cz10cnVlJnNob3dfdXNlcj10cnVlJnNob3dfcmVwb3N0cz1mYWxzZSZzaG93X3RlYXNlcj10cnVlIj48L2lmcmFtZT4=" width="500" style="border:none !important;" height="190"></iframe>')[0];
+                popup_c247539071e743faa3a640ed57c93401.setContent(i_frame_72b8728420d94e029b2be0bdecef40c4);
+            
+
+            marker_767a02b77446435cb91039334b439de9.bindPopup(popup_c247539071e743faa3a640ed57c93401);
+
+            
+        
+    
+
+            var marker_337b3e3d335649bebdd929244d84a94e = L.marker(
+                [52.40558,13.007054],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fc09f186daec49b795099a5f86caeeb6);
+            
+    
+
+                var custom_icon_45561c5088d949f2b7885aef9608b9eb = L.icon({
+                    iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Universit%C3%A4t_Potsdam_logo.svg/2000px-Universit%C3%A4t_Potsdam_logo.svg.png',
+                    iconSize: [40,40],
+                    iconAnchor: [20,25],
+
+                    
+                    
+                    
+
+                    popupAnchor: [-20,-20],
+                    });
+                marker_337b3e3d335649bebdd929244d84a94e.setIcon(custom_icon_45561c5088d949f2b7885aef9608b9eb);
+            
+    
+            var popup_5ba1ff89e08d415da2c792c43e94ca74 = L.popup({maxWidth: '600'});
+
+            
+                var i_frame_dfe89c4f0ad64ccabf223d7a0eeb1887 = $('<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKPGlmcmFtZSB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxNjYiIHNjcm9sbGluZz0ibm8iIGZyYW1lYm9yZGVyPSJubyIgYWxsb3c9ImF1dG9wbGF5IiBzcmM9Imh0dHBzOi8vdy5zb3VuZGNsb3VkLmNvbS9wbGF5ZXIvP3VybD1odHRwcyUzQS8vYXBpLnNvdW5kY2xvdWQuY29tL3RyYWNrcy80NTQwMDEwNDkmY29sb3I9JTIzZmY1NTAwJmF1dG9fcGxheT1mYWxzZSZoaWRlX3JlbGF0ZWQ9ZmFsc2Umc2hvd19jb21tZW50cz10cnVlJnNob3dfdXNlcj10cnVlJnNob3dfcmVwb3N0cz1mYWxzZSZzaG93X3RlYXNlcj10cnVlIj48L2lmcmFtZT4=" width="500" style="border:none !important;" height="190"></iframe>')[0];
+                popup_5ba1ff89e08d415da2c792c43e94ca74.setContent(i_frame_dfe89c4f0ad64ccabf223d7a0eeb1887);
+            
+
+            marker_337b3e3d335649bebdd929244d84a94e.bindPopup(popup_5ba1ff89e08d415da2c792c43e94ca74);
+
+            
+        
+    
+
+            var marker_e744169d7cef4d178a9c86c8b675bf43 = L.marker(
+                [51.419501,-0.95072],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fc09f186daec49b795099a5f86caeeb6);
+            
+    
+
+                var custom_icon_4832a204fb974a77844a64333724e1ba = L.icon({
+                    iconUrl: 'http://www.pivotalweather.com/images/data_source_logos/logo.ecmwf.png',
+                    iconSize: [40,30],
+                    iconAnchor: [20,25],
+
+                    
+                    
+                    
+
+                    popupAnchor: [-20,-20],
+                    });
+                marker_e744169d7cef4d178a9c86c8b675bf43.setIcon(custom_icon_4832a204fb974a77844a64333724e1ba);
+            
+    
+            var popup_8203387a6c9a4b298acbacf99d8fac93 = L.popup({maxWidth: '600'});
+
+            
+                var i_frame_68a6db3da639433a9790513d9c26d6ca = $('<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKPGlmcmFtZSB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxNjYiIHNjcm9sbGluZz0ibm8iIGZyYW1lYm9yZGVyPSJubyIgYWxsb3c9ImF1dG9wbGF5IiBzcmM9Imh0dHBzOi8vdy5zb3VuZGNsb3VkLmNvbS9wbGF5ZXIvP3VybD1odHRwcyUzQS8vYXBpLnNvdW5kY2xvdWQuY29tL3RyYWNrcy80NTQwMDEwMjUmY29sb3I9JTIzZmY1NTAwJmF1dG9fcGxheT1mYWxzZSZoaWRlX3JlbGF0ZWQ9ZmFsc2Umc2hvd19jb21tZW50cz10cnVlJnNob3dfdXNlcj10cnVlJnNob3dfcmVwb3N0cz1mYWxzZSZzaG93X3RlYXNlcj10cnVlIj48L2lmcmFtZT4=" width="500" style="border:none !important;" height="190"></iframe>')[0];
+                popup_8203387a6c9a4b298acbacf99d8fac93.setContent(i_frame_68a6db3da639433a9790513d9c26d6ca);
+            
+
+            marker_e744169d7cef4d178a9c86c8b675bf43.bindPopup(popup_8203387a6c9a4b298acbacf99d8fac93);
+
+            
+        
+    
+
+            var marker_daa17bc4296d46e9a359f5a43b30a1ee = L.marker(
+                [49.277315,-123.11154],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fc09f186daec49b795099a5f86caeeb6);
+            
+    
+
+                var custom_icon_f775724020774488ad33bde901d332e4 = L.icon({
+                    iconUrl: 'http://content.invisioncic.com/Mnhlcanucks/monthly_2016_03/Skate.png.699571bd87fa18caed389ddbad6ffc6d.png',
+                    iconSize: [40,40],
+                    iconAnchor: [20,25],
+
+                    
+                    
+                    
+
+                    popupAnchor: [-20,-20],
+                    });
+                marker_daa17bc4296d46e9a359f5a43b30a1ee.setIcon(custom_icon_f775724020774488ad33bde901d332e4);
+            
+    
+            var popup_2df61f891eb54b0d9e6265a9c8de51ac = L.popup({maxWidth: '600'});
+
+            
+                var i_frame_0e0a96ecb03347e0a59abafd6ccd7772 = $('<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKPGlmcmFtZSB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxNjYiIHNjcm9sbGluZz0ibm8iIGZyYW1lYm9yZGVyPSJubyIgYWxsb3c9ImF1dG9wbGF5IiBzcmM9Imh0dHBzOi8vdy5zb3VuZGNsb3VkLmNvbS9wbGF5ZXIvP3VybD1odHRwcyUzQS8vYXBpLnNvdW5kY2xvdWQuY29tL3RyYWNrcy80NTQwMDEwMzQmY29sb3I9JTIzZmY1NTAwJmF1dG9fcGxheT1mYWxzZSZoaWRlX3JlbGF0ZWQ9ZmFsc2Umc2hvd19jb21tZW50cz10cnVlJnNob3dfdXNlcj10cnVlJnNob3dfcmVwb3N0cz1mYWxzZSZzaG93X3RlYXNlcj10cnVlIj48L2lmcmFtZT4=" width="500" style="border:none !important;" height="190"></iframe>')[0];
+                popup_2df61f891eb54b0d9e6265a9c8de51ac.setContent(i_frame_0e0a96ecb03347e0a59abafd6ccd7772);
+            
+
+            marker_daa17bc4296d46e9a359f5a43b30a1ee.bindPopup(popup_2df61f891eb54b0d9e6265a9c8de51ac);
+
+            
+        
+    
+
+            var marker_95e18e55d5f449b3ba2ff9c973331828 = L.marker(
+                [46.527297,60.203555],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fc09f186daec49b795099a5f86caeeb6);
+            
+    
+
+                var custom_icon_165784ec1d0748299eaa8e8da8aa8b06 = L.icon({
+                    iconUrl: 'https://raw.githubusercontent.com/SMASHIproject/smashiproject.github.io/master/img/avatar-icon.png',
+                    iconSize: [40,40],
+                    iconAnchor: [20,25],
+
+                    
+                    
+                    
+
+                    popupAnchor: [-20,-20],
+                    });
+                marker_95e18e55d5f449b3ba2ff9c973331828.setIcon(custom_icon_165784ec1d0748299eaa8e8da8aa8b06);
+            
+    
+            var popup_70b03fe5fa9b4d378390acec2f5bd268 = L.popup({maxWidth: '600'});
+
+            
+                var i_frame_cc99390d9f3141cfa771570b816816f9 = $('<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKPGlmcmFtZSB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxNjYiIHNjcm9sbGluZz0ibm8iIGZyYW1lYm9yZGVyPSJubyIgYWxsb3c9ImF1dG9wbGF5IiBzcmM9Imh0dHBzOi8vdy5zb3VuZGNsb3VkLmNvbS9wbGF5ZXIvP3VybD1odHRwcyUzQS8vYXBpLnNvdW5kY2xvdWQuY29tL3RyYWNrcy80NTQwMDEwNDMmY29sb3I9JTIzZmY1NTAwJmF1dG9fcGxheT1mYWxzZSZoaWRlX3JlbGF0ZWQ9ZmFsc2Umc2hvd19jb21tZW50cz10cnVlJnNob3dfdXNlcj10cnVlJnNob3dfcmVwb3N0cz1mYWxzZSZzaG93X3RlYXNlcj10cnVlIj48L2lmcmFtZT4=" width="500" style="border:none !important;" height="190"></iframe>')[0];
+                popup_70b03fe5fa9b4d378390acec2f5bd268.setContent(i_frame_cc99390d9f3141cfa771570b816816f9);
+            
+
+            marker_95e18e55d5f449b3ba2ff9c973331828.bindPopup(popup_70b03fe5fa9b4d378390acec2f5bd268);
+
+            
+        
+    
+
+            var marker_11ce9d38248944cbb2020de8996db9b9 = L.marker(
+                [80,-45],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fc09f186daec49b795099a5f86caeeb6);
+            
+    
+
+                var div_icon_c1bb1d63b3b840b1baf39888a8584171 = L.divIcon({
+                    iconSize: [450,36],
+                    iconAnchor: [0,0],
+                    
+                    className: 'empty',
+                    html: '<div style="font-size: 24pt"> Beats of the ERA </div>',
+                    });
+                marker_11ce9d38248944cbb2020de8996db9b9.setIcon(div_icon_c1bb1d63b3b840b1baf39888a8584171);
+            
+</script>
